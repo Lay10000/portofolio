@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Unbounded:wght@500&display=swap');
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	font-family: "Unbounded", cursive;
+	font-weight: 400;
+	background-color: black;
+	color: white;
+	margin: 150px 0 0 0;
+	padding: 0;
+}
+
+.intro {
+	max-width: 620px;
+	margin: 0 auto 120px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 0;
+}
+
+.highlight {
+	color: #4ED4D4;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+.projects {
+	width: 90%;
+	max-width: 880px;
+	margin: 50px auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 -6px;
+	padding: 0;
+}
+
+li {
+	width: 100%;
+  margin-bottom: 50px;
+}
+
+iframe {
+	width: 100%;
+	border: none;
+	height: 700px;
+}
+
+footer {
+	width: 100%;
+	font-size: 24px;
+	background: #242424;
+	padding: 25px 5%;
+	text-align: right;
+	margin-top: 120px;
+}
+
